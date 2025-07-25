@@ -1,17 +1,15 @@
 {
-  "name": "my-telegram-bot",
+  "name": "whitevein-bot",
   "version": "1.0.0",
+  "type": "database",
+  "description": "Мой Telegram бот WhiteveinRobotBot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^17.2.1",
-    "node-telegram-bot-api": "^0.63.0",
-    "yt-search": "^2.13.1"
+    "dotenv": "^16.0.0",  
+    "node-telegram-bot-api": "^0.61.0",
+    "yt-search": "^2.10.6"
   }
 }
